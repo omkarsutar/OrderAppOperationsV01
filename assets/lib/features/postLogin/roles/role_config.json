@@ -20,7 +20,10 @@
         "viewRouteName": "viewRole"
     },
     "listPage": {
-        "reverseList": false,
+        "sorting": {
+            "field": "created_at",
+            "sortAscending": true
+        },
         "searchFields": [
             "role_name"
         ]

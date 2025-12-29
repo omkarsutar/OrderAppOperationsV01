@@ -20,7 +20,10 @@
         "viewRouteName": "viewRoute"
     },
     "listPage": {
-        "reverseList": false,
+        "sorting": {
+            "field": "created_at",
+            "sortAscending": true
+        },
         "searchFields": [
             "route_name"
         ]

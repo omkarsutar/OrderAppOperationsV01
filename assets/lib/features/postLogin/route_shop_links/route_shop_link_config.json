@@ -20,7 +20,10 @@
         "viewRouteName": "viewRouteShopLink"
     },
     "listPage": {
-        "reverseList": false,
+        "sorting": {
+            "field": "visit_order",
+            "sortAscending": true
+        },
         "searchFields": [
             "route_id_label",
             "shop_id_label"

@@ -20,7 +20,10 @@
         "viewRouteName": "viewPurchaseOrder"
     },
     "listPage": {
-        "reverseList": true,
+        "sorting": {
+            "field": "created_at",
+            "sortAscending": false
+        },
         "searchFields": [
             "po_route_id_label",
             "po_shop_id_label",

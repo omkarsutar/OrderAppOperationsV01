@@ -20,7 +20,10 @@
         "viewRouteName": "viewProduct"
     },
     "listPage": {
-        "reverseList": false,
+        "sorting": {
+            "field": "created_at",
+            "sortAscending": true
+        },
         "searchFields": [
             "product_name",
             "product_type",

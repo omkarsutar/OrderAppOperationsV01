@@ -20,7 +20,10 @@
         "viewRouteName": "viewShop"
     },
     "listPage": {
-        "reverseList": false,
+        "sorting": {
+            "field": "created_at",
+            "sortAscending": false
+        },
         "searchFields": [
             "shop_name",
             "shop_person_name",

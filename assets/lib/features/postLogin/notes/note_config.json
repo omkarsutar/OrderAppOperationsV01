@@ -20,7 +20,10 @@
         "viewRouteName": "viewNote"
     },
     "listPage": {
-        "reverseList": true,
+        "sorting": {
+            "field": "created_at",
+            "sortAscending": false
+        },
         "searchFields": [
             "body"
         ]

@@ -20,7 +20,10 @@
         "viewRouteName": "viewModule"
     },
     "listPage": {
-        "reverseList": false,
+        "sorting": {
+            "field": "created_at",
+            "sortAscending": true
+        },
         "searchFields": [
             "module_name"
         ]
