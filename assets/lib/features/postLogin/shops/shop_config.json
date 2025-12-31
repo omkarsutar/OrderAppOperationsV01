@@ -41,6 +41,14 @@
             "visibleInForm": true
         },
         {
+            "name": "shop_location_url",
+            "label": "Location URL",
+            "type": "text",
+            "required": false,
+            "visibleInList": false,
+            "visibleInForm": true
+        },
+        {
             "name": "shops_primary_route",
             "label": "Primary Route",
             "type": "dropdown",
@@ -104,14 +112,6 @@
             "type": "switchField",
             "required": false,
             "visibleInList": true,
-            "visibleInForm": true
-        },
-        {
-            "name": "shop_location_url",
-            "label": "Location URL",
-            "type": "text",
-            "required": false,
-            "visibleInList": false,
             "visibleInForm": true
         },
         {
