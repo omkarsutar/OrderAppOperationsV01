@@ -162,6 +162,14 @@
             "visibleInForm": true
         },
         {
+            "name": "product_image_url",
+            "label": "Product Image",
+            "type": "text",
+            "required": false,
+            "visibleInList": true,
+            "visibleInForm": true
+        },
+        {
             "name": "created_by",
             "label": "Created By",
             "type": "dropdown",
