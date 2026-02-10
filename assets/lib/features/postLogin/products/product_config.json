@@ -92,15 +92,6 @@
             "visibleInForm": true
         },
         {
-            "name": "purchase_rate_for_distributer",
-            "label": "Purchase Rate (Distributor)",
-            "type": "doubleField",
-            "required": true,
-            "prefix": "₹ ",
-            "visibleInList": true,
-            "visibleInForm": true
-        },
-        {
             "name": "purchase_rate_for_retailer",
             "label": "Purchase Rate (Retailer)",
             "type": "doubleField",
